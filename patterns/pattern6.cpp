@@ -6,10 +6,13 @@ int main()
      cin>>n;
      int r;
      for(r=0;r<n;r++){
-          for(int c=0;c<=r;c++){
-               int i=1;
+          for(int s=0;s<n-r-1;s++){
+               cout<<" ";
+          }
+          for(int c=0;c<r+1;c++){
+               //int i=1;
                if (r==0||r==n-1||c==0||c==r){
-                    cout<<c+1;
+                    cout<<"* "<<" ";
                }
                else{
                     cout<<" ";
