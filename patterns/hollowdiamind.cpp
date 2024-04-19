@@ -14,21 +14,24 @@ for(r=0;r<n;r++){
           }else{
                cout<<" ";
           }
-     }cout<<endl;
+     }
+     cout<<endl;
 }
 for(r=0;r<n;r++){
      for(int c=0;c<r;c++){
           cout<<" ";
      }
-     for(int c=0;c<2*(n-r)-1;c++) {
+     for(int c=0;c<2*(n-r)-1;c++){
           if(c==0||c==2*(n-r)-2){
                cout<<"*";
-          }
-          else{
+          }else{
                cout<<" ";
           }
-     }cout<<endl;
+     }
+     cout<<endl;
 }
+
+
 
 return 0;
 } 
